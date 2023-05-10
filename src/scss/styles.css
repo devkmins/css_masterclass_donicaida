@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;300;400&display=swap");
+body {
+  font-family: "Source Serif Pro", serif;
+  font-weight: 300;
+  color: #444444;
+  margin: 40px;
+}
+body .header {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+  font-size: 40px;
+  font-weight: 400;
+}
+body .main {
+  display: grid;
+  grid-template-rows: repeat(12, 60px);
+  margin: 135px 0 75px 0;
+  cursor: pointer;
+}
+body .main .main__header {
+  display: grid;
+  grid-template-columns: 1fr 4fr 6fr;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+body .main .main__content {
+  display: grid;
+  grid-template-columns: 1fr 4fr 6fr;
+  align-items: center;
+  font-size: 24px;
+  border-top: 1px solid #444444;
+}
+body .bottom .bottom-contents {
+  padding-bottom: 20px;
+}
+body .bottom .bottom-contents span {
+  font-size: 14px;
+}
+body .bottom .bottom-contents p {
+  font-size: 30px;
+  font-weight: 400;
+}
+body .footer {
+  font-size: 14px;
+  font-weight: 400;
+}/*# sourceMappingURL=styles.css.map */
